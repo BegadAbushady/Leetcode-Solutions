@@ -23,6 +23,6 @@ Each problem has its own folder containing the solution and, when useful, notes 
 
 Solve problems consistently, understand the underlying concepts, and improve my ability to solve problems independently rather than relying on AI-generated solutions.
 
-## Languages
+## Language
 
 * Python

@@ -19,6 +19,7 @@ Each problem has its own folder containing the solution and, when useful, notes 
 | 1 | Two Sum           | Easy       | Hash Map |
 | 9 | Palindrome Number | Easy       | Strings  |
 | 13 | Roman to Integer | Easy       | Hash Map + String |
+| 14 | Longest Common Prefix |  Easy  | Strings  |
 
 
 ## Goal

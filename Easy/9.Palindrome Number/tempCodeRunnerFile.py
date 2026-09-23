@@ -2,24 +2,20 @@ class Solution(object):
     def isPalindrome(self, x):
 
         # Convert the number to a List so we can compare digits
-        num = x
+        s = x
         theList = []
-        digit = 0
+        digit=0
         index = 0
-
-        if num < 0:
-            return False
-
-        while num > 0:
-            digit = num % 10
-            num //= 10
+        while s > 0:
+            digit = s%10
+            s//=s
             theList.append(digit)
 
-        length = len(theList)
+
+        halflength = len(theList)//2
         # Compare digits from both ends toward the middle excluding the middle itself
-        
-        for index in range(length//2):
-            if theList[index] != theList[length-index-1]:
+        for index in range(halflength):
+            if theList[index] != theList[halflength*2-index-1]:
                 return False
 
         return True
@@ -27,9 +23,8 @@ class Solution(object):
 
 # the first test case is 555, the output is True
 # the second test case is 345, the output is False
-
 test = 555
-test2 = 345
+test2 = 123
 example = Solution()
 print(example.isPalindrome(test))
 print(example.isPalindrome(test2))

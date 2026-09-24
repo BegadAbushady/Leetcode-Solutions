@@ -5,7 +5,6 @@ class Solution(object):
         num = x
         theList = []
         digit = 0
-        index = 0
 
         if num < 0:
             return False
